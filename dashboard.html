@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PURF - Rekomendasi Parfum Terbaik</title>
+  <link rel="icon" href="ra (7) 1.png" type="image/x-icon">
+  <!-- Font Awesome 6 -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="stylesheet" href="dashboard.css">
+</head>
+
+<body>
+  <div class="decoration decoration-1"></div>
+  <div class="decoration decoration-2"></div>
+
+  <!-- Navbar -->
+  <nav>
+    <div class="nav-container">
+      <div class="logo">
+        <img src="ra (7) 1.png" alt="PURF Logo" class="logo-image">
+        PURF
+      </div>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#pakar">Pakar</a></li>
+        <li><a href="#rekomendasi">Rekomendasi</a></li>
+        <li><a href="#tim">Tim Kami</a></li>
+      </ul>
+      <div class="login-wrapper">
+        <a href="login.html" class="login-btn">Login</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- HOME Section -->
+  <section class="hero" id="home">
+    <h1>Cari Rekomendasi Parfum disini</h1>
+
+    <!-- Perfume Slider -->
+    <div class="perfume-container">
+      <div class="perfume-slider">
+        <div class="perfume-item active" data-index="0">
+          <div class="perfume-card">
+            <img src="ra (18).png" alt="Parfum 1" class="perfume-image">
+            <div class="perfume-name">Braven Cool Water</div>
+            <div class="perfume-brand">Fresh Collection</div>
+          </div>
+        </div>
+
+        <div class="perfume-item" data-index="1">
+          <div class="perfume-card">
+            <img src="ra (19).png" alt="Parfum 2" class="perfume-image">
+            <div class="perfume-name">California Blue</div>
+            <div class="perfume-brand">Fresh Series</div>
+          </div>
+        </div>
+
+        <div class="perfume-item" data-index="2">
+          <div class="perfume-card">
+            <img src="ra (23).png" alt="Parfum 3" class="perfume-image">
+            <div class="perfume-name">HMNS Forhampton</div>
+            <div class="perfume-brand">Fresh Series</div>
+          </div>
+        </div>
+
+        <div class="perfume-item" data-index="3">
+          <div class="perfume-card">
+            <img src="ra (24).png" alt="Parfum 4" class="perfume-image">
+            <div class="perfume-name">Saff & Co Troupe</div>
+            <div class="perfume-brand">Sweet Collection</div>
+          </div>
+        </div>
+
+        <div class="perfume-item" data-index="4">
+          <div class="perfume-card">
+            <img src="ra (25).png" alt="Parfum 5" class="perfume-image">
+            <div class="perfume-name">YSL Black Opium</div>
+            <div class="perfume-brand">Premium Edition</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Slider Dots -->
+      <div class="slider-dots">
+        <span class="dot active" data-index="0"></span>
+        <span class="dot" data-index="1"></span>
+        <span class="dot" data-index="2"></span>
+        <span class="dot" data-index="3"></span>
+        <span class="dot" data-index="4"></span>
+      </div>
+    </div>
+
+    <button class="view-recommendation-btn" onclick="location.href='#rekomendasi'">Lihat Rekomendasi</button>
+  </section>
+
+  <!-- ABOUT Section -->
+  <section class="about-section" id="about">
+    <div class="about-container">
+      <div class="about-image">
+        <img src="image.png" alt="Luxury Perfume Model">
+      </div>
+      <div class="about-content">
+        <h2>ABOUT US</h2>
+        <p>PURF adalah website tempat rekomendasi parfum yang cocok, direkomendasikan oleh pakar terbaik dijamin parfum
+          yang direkomendasikan adalah parfum terbaik dengan kantong tipis</p>
+        <a href="#rekomendasi" class="about-btn">Lihat Rekomendasi</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- PAKAR Section -->
+  <section class="pakar-section" id="pakar">
+    <h2 class="section-title">Pakar</h2>
+    <!-- Bagian Card Pakar -->
+    <div class="pakar-container">
+      <div class="pakar-card">
+        <img src="ade.jpg" alt="Foto Pakar" class="pakar-img">
+        <h3 class="pakar-nama">Ade Setiawan</h3>
+        <p class="pakar-info">Kelahiran : 15 Mei 1996</p>
+        <p class="pakar-info">Status : Streamer</p>
+        <p class="pakar-info">Instagram : set1awanade</p>
+      </div>
+
+      <div class="pakar-card">
+        <img src="WhatsApp Image 2025-10-01 at 07.48.29_8ee526d9.jpg" alt="Foto Pakar" class="pakar-img">
+        <h3 class="pakar-nama">Niky Putra</h3>
+        <p class="pakar-info">Kelahiran : 25 April 1999</p>
+        <p class="pakar-info">Status : Influencer</p>
+        <p class="pakar-info">Instagram : niky.cu</p>
+      </div>
+
+      <div class="pakar-card">
+        <img src="syaiuf.jpg" alt="Foto Pakar" class="pakar-img">
+        <h3 class="pakar-nama">Syaiful</h3>
+        <p class="pakar-info">Kelahiran : 7 Oktober 2002</p>
+        <p class="pakar-info">Status : Konten Kreator</p>
+        <p class="pakar-info">Instagram : Syaifulstayscentful</p>
+      </div>
+    </div>
+
+  </section>
+
+  <!-- REKOMENDASI Section -->
+  <section class="rekomendasi-section" id="rekomendasi">
+    <h2 class="section-title">Rekomendasi Parfum</h2>
+    <section class="produk-rekomendasi">
+      <div class="kartu-produk">
+        <img src="kahf.jpg" alt="Kahf Humbling Forest">
+        <h3>Kahf Humbling Forest</h3>
+        <p class="harga-produk">Rp59.800,00 - Rp88.000,00</p>
+        <p class="kategori-produk">Parfum Pria</p>
+      </div>
+
+      <div class="kartu-produk">
+        <img src="Posh.jpg" alt="Posh Men Black Suit">
+        <h3>Posh Men Black Suit</h3>
+        <p class="harga-produk">Rp23.300,00 - Rp42.800,00</p>
+        <p class="kategori-produk">Parfum Pria</p>
+      </div>
+
+      <div class="kartu-produk">
+        <img src="sauvage.jpg" alt="Sauvage">
+        <h3>Dior Sauvage</h3>
+        <p class="harga-produk">Rp30.000,00 - Rp45.000,00</p>
+        <p class="kategori-produk">Parfum Pria</p>
+      </div>
+
+      <div class="kartu-produk">
+        <img src="blueice.jpg" alt="The Body Tale">
+        <h3>Blue Ice</h3>
+        <p class="harga-produk">Rp160.000,00 - Rp200.000,00</p>
+        <p class="kategori-produk">Parfum Pria</p>
+      </div>
+
+      <div class="kartu-produk">
+        <img src="Scarlet.jpg" alt="Scarlett">
+        <h3>Scarlett</h3>
+        <p class="harga-produk">Rp59.900,00 - Rp80.500,00</p>
+        <p class="kategori-produk">Parfum Wanita</p>
+      </div>
+
+      <div class="kartu-produk">
+        <img src="blackopium.jpg" alt="Evangeline">
+        <h3>Black Opium</h3>
+        <p class="harga-produk">Rp27.000,00 - Rp45.000,00</p>
+        <p class="kategori-produk">Parfum Wanita</p>
+      </div>
+
+      <div class="kartu-produk">
+        <img src="Scentopia.jpg" alt="Evangeline">
+        <h3>Scentopia</h3>
+        <p class="harga-produk">Rp27.000,00 - Rp45.000,00</p>
+        <p class="kategori-produk">Parfum Wanita</p>
+      </div>
+
+      <div class="kartu-produk">
+        <img src="irresistible.jpg" alt="Evangeline">
+        <h3>Irresistible</h3>
+        <p class="harga-produk">Rp27.000,00 - Rp45.000,00</p>
+        <p class="kategori-produk">Parfum Wanita</p>
+      </div>
+    </section>
+
+  </section>
+
+  <!-- TIM KAMI Section -->
+  <section class="tim-section" id="tim">
+    <h2 class="section-title">Tim Kami</h2>
+    <!-- Bagian Tim Kami -->
+
+    <div class="tim-container">
+      <div class="tim-card">
+        <div class="tim-img">
+          <img src="ridho.jpg" alt="Foto Tim">
+        </div>
+        <div class="tim-content">
+          <h3 class="tim-nama">Muhammad Ridho Firdaus</h3>
+          <p class="tim-role">Network Engineer</p>
+
+          <!-- Button + wrapper -->
+          <div class="tim-btn-wrapper">
+            <button class="tim-btn">Contact</button>
+
+            <!-- Ikon sosmed -->
+            <a href="https://wa.me/6289508459286" target="_blank" class="wa-pro">
+              <i class="fab fa-whatsapp"></i>
+            </a>
+            <a href="https://instagram.com/ridhofrds_08" target="_blank" class="ig-pro">
+              <i class="fab fa-instagram"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="tim-card">
+        <div class="tim-img">
+          <img src="Tegar.jpg" alt="Foto Tim">
+        </div>
+        <div class="tim-content">
+          <h3 class="tim-nama">Muhammad Tegar Wibowo</h3>
+          <p class="tim-role">Fullstack Developer</p>
+
+          <!-- Button + wrapper -->
+          <div class="tim-btn-wrapper">
+            <button class="tim-btn">Contact</button>
+
+            <!-- Ikon sosmed -->
+            <a href="https://wa.me/62895340952577" target="_blank" class="wa-pro">
+              <i class="fab fa-whatsapp"></i>
+            </a>
+            <a href="https://instagram.com/tgrrr_wb" target="_blank" class="ig-pro">
+              <i class="fab fa-instagram"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="tim-card">
+        <div class="tim-img">
+          <img src="bintang.jpg" alt="Foto Tim">
+        </div>
+        <div class="tim-content">
+          <h3 class="tim-nama">Bintang Rifky Aliffathir</h3>
+          <p class="tim-role">Cloud Engineer</p>
+
+          <!-- Button + wrapper -->
+          <div class="tim-btn-wrapper">
+            <button class="tim-btn">Contact</button>
+
+            <!-- Ikon sosmed -->
+            <a href="https://wa.me/6285776242345" target="_blank" class="wa-pro">
+              <i class="fab fa-whatsapp"></i>
+            </a>
+            <a href="https://instagram.com/bineizee.r" target="_blank" class="ig-pro">
+              <i class="fab fa-instagram"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="tim-card">
+        <div class="tim-img">
+          <img src="Abdi.jpg" alt="Foto Tim">
+        </div>
+        <div class="tim-content">
+          <h3 class="tim-nama">Shaika Abdi Pratama</h3>
+          <p class="tim-role">Purple Team In CyberSecurity</p>
+
+          <!-- Button + wrapper -->
+          <div class="tim-btn-wrapper">
+            <button class="tim-btn">Contact</button>
+
+            <!-- Ikon sosmed -->
+            <a href="https://wa.me/62881012226362" target="_blank" class="wa-pro">
+              <i class="fab fa-whatsapp"></i>
+            </a>
+            <a href="https://instagram.com/xhkkaaa" target="_blank" class="ig-pro">
+              <i class="fab fa-instagram"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="tim-card">
+        <div class="tim-img">
+          <img src="Atha.jpg" alt="Foto Tim">
+        </div>
+        <div class="tim-content">
+          <h3 class="tim-nama">Atha Rulli Adhila Purba</h3>
+          <p class="tim-role">Game Developer</p>
+
+          <!-- Button + wrapper -->
+          <div class="tim-btn-wrapper">
+            <button class="tim-btn">Contact</button>
+
+            <!-- Ikon sosmed -->
+            <a href="https://wa.me/6281234567890" target="_blank" class="wa-pro">
+              <i class="fab fa-whatsapp"></i>
+            </a>
+            <a href="https://instagram.com/username" target="_blank" class="ig-pro">
+              <i class="fab fa-instagram"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="tim-card">
+        <div class="tim-img">
+          <img src="leni.jpg" alt="Foto Tim">
+        </div>
+        <div class="tim-content">
+          <h3 class="tim-nama">Leni Lidiowati</h3>
+          <p class="tim-role">Polisi Wanita</p>
+
+          <!-- Button + wrapper -->
+          <div class="tim-btn-wrapper">
+            <button class="tim-btn">Contact</button>
+
+            <!-- Ikon sosmed -->
+            <a href="https://wa.me/6281234567890" target="_blank" class="wa-pro">
+              <i class="fab fa-whatsapp"></i>
+            </a>
+            <a href="https://instagram.com/username" target="_blank" class="ig-pro">
+              <i class="fab fa-instagram"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="tim-container-aira">
+      <div class="tim-card">
+        <div class="tim-img">
+          <img src="aira.jpg" alt="Foto Tim">
+        </div>
+        <div class="tim-content">
+          <h3 class="tim-nama">Khumairah Afrida Maryam</h3>
+          <p class="tim-role">IT Consultant</p>
+
+          <!-- Button + wrapper -->
+          <div class="tim-btn-wrapper">
+            <button class="tim-btn">Contact</button>
+
+            <!-- Ikon sosmed -->
+            <a href="https://wa.me/6281234567890" target="_blank" class="wa-pro">
+              <i class="fab fa-whatsapp"></i>
+            </a>
+            <a href="https://instagram.com/username" target="_blank" class="ig-pro">
+              <i class="fab fa-instagram"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer-pro">
+    <div class="footer-container-pro">
+      <!-- Logo + Deskripsi -->
+      <div class="footer-logo-pro">
+        <img src="ra (7) 1.png" alt="logo" class="footer-icon-pro">
+        <h2 class="footer-title-pro">PURF</h2>
+        <p class="footer-desc-pro">
+          Purf, adalah website yang membantu kalian<br>
+          para pemula dalam memilih parfum yang cocok
+        </p>
+        <div class="footer-sosmed-pro">
+          <a href="#"><i class="fab fa-facebook"></i></a>
+          <a href="#"><i class="fab fa-youtube"></i></a>
+          <a href="#"><i class="fab fa-x-twitter"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+        </div>
+      </div>
+
+      <!-- Quick Links -->
+      <div class="footer-links-pro">
+        <h3>Quick Links</h3>
+        <ul>
+          <li><a href="#">▶ Home</a></li>
+          <li><a href="#">▶ About</a></li>
+          <li><a href="#">▶ Rekomendasi</a></li>
+          <li><a href="#">▶ Tim kami</a></li>
+        </ul>
+      </div>
+
+      <!-- Contact -->
+      <div class="footer-contact-pro">
+        <h3>Contact Us</h3>
+        <p><i class="fab fa-whatsapp"></i> +764-887-904</p>
+        <p><i class="fas fa-envelope"></i> purfrekomen@gmail.com</p>
+      </div>
+    </div>
+
+    <div class="footer-bottom-pro">
+      <p>Copyright 2025 Mingers. All rights reserved</p>
+      <ul>
+        <li><a href="#">Term Of Service</a></li>
+        <li><a href="#">Privacy Policy</a></li>
+        <li><a href="#">Cookies</a></li>
+      </ul>
+    </div>
+  </footer>
+  <script src="dashboard.js"></script>
+</body>
+</html>
